@@ -1,5 +1,4 @@
-# README
-
+# Rails 5.2 Chat App
 
 This is a Sample Chat App in Rails 5.2
 
