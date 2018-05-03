@@ -33,6 +33,12 @@ gem 'jquery-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rack-cors'
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-rails', '~> 1.1.0'
+gem 'capistrano-bundler'
+gem 'capistrano-rbenv', "~> 2.0"
+gem 'unicorn', group: :production
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
