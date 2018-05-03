@@ -20,11 +20,11 @@ set :bundle_binstubs, nil
 # how many old releases do we want to keep
 set :keep_releases, 5
 
+set :use_sudo, false
 # set :ssh_options, { forward_agent: true, user: :alche}
 set :ssh_options, { forward_agent: true, user: :alex}
-set :use_sudo, false
-set :pty, true
 
+set :pty, true
 set :deploy_port, 8080
 # files we want symlinking to specific entries in shared.
 set :linked_files, %w{config/database.yml}

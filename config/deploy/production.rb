@@ -14,7 +14,7 @@ set :branch, "alex"
 # app side by side. Also provides quick sanity checks when looking
 # at filepaths
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
-set :server_name, "hrbasebe.srl.com.pk *.hrbasebe.srl.com.pk"
+set :server_name, "192.168.15.50"
 
 server '192.168.15.50', user: 'alex', roles: %w{web app db}, primary: true
 
