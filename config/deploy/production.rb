@@ -8,7 +8,7 @@ role :db,  %w{192.168.15.50}
 
 
 set :stage, :production
-set :branch, "alex"
+set :branch, "master"
 
 # used in case we're deploying multiple versions of the same
 # app side by side. Also provides quick sanity checks when looking
