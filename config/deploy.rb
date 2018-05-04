@@ -20,7 +20,7 @@ set :bundle_binstubs, nil
 # how many old releases do we want to keep
 set :keep_releases, 5
 
-set :use_sudo, false
+set :use_sudo, true
 # set :ssh_options, { forward_agent: true, user: :alche}
 set :ssh_options, { forward_agent: true, user: :alex}
 
